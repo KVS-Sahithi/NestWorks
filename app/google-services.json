@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1042122265925",
+    "project_id": "nestworks-ecbee",
+    "storage_bucket": "nestworks-ecbee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042122265925:android:a4e09183b68cd2e566da2c",
+        "android_client_info": {
+          "package_name": "com.example.nestworks1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWuRb7r1Vl3yEHE8kavRbC96j8lYzUpRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

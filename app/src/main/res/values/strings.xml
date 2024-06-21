@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Nestworks1</string>
+    <string name="enter_password">enter_password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="type_your_task">type_your_task</string>
+    <string name="image_desc">image_desc</string>
+</resources>

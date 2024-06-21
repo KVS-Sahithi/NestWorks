@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"> <!-- Setting background color to white -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextFamilyMember"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Family Member Name"
+                android:backgroundTint="@color/teal_200"
+                android:padding="12dp"
+                android:textColor="@color/black" /> <!-- Setting text color to black -->
+
+            <EditText
+                android:id="@+id/editTextMorningMedication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Morning Medication"
+                android:backgroundTint="@color/teal_200"
+                android:padding="12dp"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/editTextEveningMedication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Evening Medication"
+                android:backgroundTint="@color/teal_200"
+                android:padding="12dp"
+                android:textColor="@color/black" />
+
+            <CalendarView
+                android:id="@+id/calendarViewAppointmentDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:dateTextAppearance="?attr/textAppearanceHeadline6"
+                android:padding="12dp"
+                android:weekDayTextAppearance="?attr/textAppearanceCaption"
+                android:focusedMonthDateColor="@color/black"
+                android:unfocusedMonthDateColor="@color/teal_700"
+                android:weekNumberColor="@color/teal_200"
+                android:selectedWeekBackgroundColor="@color/teal_200" />
+
+            <TextView
+                android:id="@+id/textViewAppointmentDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Selected Appointment Date: "
+                android:textStyle="bold"
+                android:textColor="@color/black" /> <!-- Setting text color to black -->
+
+            <Button
+                android:id="@+id/buttonSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/white"
+                android:background="@color/teal_700"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp" />
+
+            <Button
+                android:id="@+id/buttonRetrieve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Retrieve Saved Details"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/white"
+                android:background="@color/purple_700"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
