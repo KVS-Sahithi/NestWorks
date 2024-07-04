@@ -7,11 +7,9 @@ This Android application helps families stay connected, share updates, and manag
 
 ##  Features:
 
-* Secure family group creation with invite functionalities
-* Real-time chat for communication within the family
-* Collaborative shopping list creation and management with task assignment
-* Dedicated section for sharing health updates (optional)
-* Feature for creating and sharing memories with text, photos, videos, or voice recordings (optional)
+* Collaborative shopping list creation and management with task assignment.
+* Dedicated section for sharing health updates,appointments.
+* Feature for creating and sharing memories with photos.
 
 ## Tech Stack:
 
