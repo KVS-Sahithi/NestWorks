@@ -1,4 +1,3 @@
-Understood. Here's the updated README file without the license section:
 
 ## NestWorks: Together We Achieve More
 
