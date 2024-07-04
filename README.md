@@ -1,7 +1,10 @@
 
 ## NestWorks: Together We Achieve More
+
 **'NestWorks' served as a platform for me to explore building an application using Kotlin for Android and Firebase for backend functionalities."**
+
 This Android application helps families stay connected, share updates, and manage tasks.
+
 ##  Features:
 
 * Secure family group creation with invite functionalities
