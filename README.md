@@ -20,7 +20,7 @@ This Android application helps families stay connected, share updates, and manag
 | Firebase |
 
 ## Application View 
-()
+(https://github.com/KVS-Sahithi/NestWorks/blob/namratha/Nestworks%20Video.mp4)
 
 ## Installation:
 
