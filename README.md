@@ -19,6 +19,9 @@ This Android application helps families stay connected, share updates, and manag
 | Kotlin | 1.8.0 |
 | Firebase |
 
+## Application View 
+()
+
 ## Installation:
 
 1. Download and install the latest Android Studio version (2023.3.1 or later recommended) from [https://developer.android.com/studio/intro](https://developer.android.com/studio/intro).
